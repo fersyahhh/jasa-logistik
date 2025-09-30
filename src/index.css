@@ -1,0 +1,48 @@
+/* Fonts Montserrat */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Font Inter */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@theme {
+  --color-primary: #1e3a8a;
+  --color-secondary: #111827;
+}
+
+@import 'tailwindcss';
+
+.container {
+  @apply mx-auto;
+}
+
+.font-montserrat {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.font-inter {
+  font-family: 'Inter', sans-serif;
+}
+
+.hamburger-line {
+  @apply bg-primary my-2 block h-[2px] w-[30px];
+}
+
+.hamburger-active > span:nth-child(1) {
+  @apply rotate-45;
+}
+
+.hamburger-active > span:nth-child(2) {
+  @apply scale-0;
+}
+
+.hamburger-active > span:nth-child(3) {
+  @apply -rotate-45;
+}
+
+.hamburger-transition {
+  @apply transition-all duration-500 ease-in-out;
+}
+
+.nav-menu {
+  @apply right-2 opacity-100;
+}
