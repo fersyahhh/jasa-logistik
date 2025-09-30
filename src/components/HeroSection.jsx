@@ -40,7 +40,7 @@ const HeroSection = () => {
             className="font-inter flex flex-wrap gap-4 pt-5"
           >
             <a
-              href="https://wa.me/6285278412070?text=Halo%20saya%20tertarik%20dengan%20layanan%20logistik%20PT%20Perdana%20Putra%20Majalengka.%20Bisa%20minta%20informasi%20lebih%20lanjut?"
+              href="https://wa.me/6283822237832?text=Halo%20saya%20tertarik%20dengan%20layanan%20logistik%20PT%20Perdana%20Putra%20Majalengka.%20Bisa%20minta%20informasi%20lebih%20lanjut?"
               target="_blank"
               rel="noopener noreferrer"
               className="rounded-2xl bg-blue-600/80 px-4 py-2 text-lg text-white transition-all duration-300 ease-in-out hover:scale-95 md:text-xl"

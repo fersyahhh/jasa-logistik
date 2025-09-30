@@ -114,7 +114,7 @@ const ContactSection = () => {
               Chat via WhatsApp
             </a>
             <a
-              href="tel:++6283822237832"
+              href="tel:+6283822237832"
               className="font-montserrat mx-auto flex w-full items-center justify-center gap-2 rounded-full bg-white py-4 font-bold text-blue-600 transition-all duration-300 ease-in-out hover:scale-105"
             >
               <span>
