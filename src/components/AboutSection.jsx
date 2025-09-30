@@ -85,7 +85,7 @@ const AboutSection = () => {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 1, ease: 'easeInOut' }}
               viewport={{ once: true }}
-              className="rounded-xl bg-blue-500 p-4 text-white shadow-lg shadow-black/20"
+              className="rounded-xl bg-blue-500 py-4 px-8 text-white shadow-lg shadow-black/20"
             >
               <div className="flex gap-2 pb-3">
                 <span>
@@ -93,10 +93,14 @@ const AboutSection = () => {
                 </span>
                 <h2 className="font-montserrat text-lg font-bold md:text-xl">Misi Kami</h2>
               </div>
-              <p className="font-inter">
-                Menjadi perusahaan logistik terkemuka di Indonesia, yang terpercaya dan profesional dalam melayani
-                pengiriman barang dari gudang pabrik ke gudang pabrik.
-              </p>
+              <ul className='font-inter'>
+                <li className='list-disc'>
+                  Meningkatkan kualitas layanan logistik dengan menerapkan teknologi terkini dan memanjakan pelanggan
+                  dengan pelayanan yang prima.
+                </li>
+                <li className='list-disc'>Memperluas jangkauan layanan ke seluruh wilayah di Jawa Barat dan sekitarnya.</li>
+                <li className='list-disc'>Menjaga komitmen terhadap tanggung jawab sosial dan lingkungan.</li>
+              </ul>
             </motion.div>
           </div>
         </div>
