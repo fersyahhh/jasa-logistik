@@ -36,7 +36,7 @@ const AboutSection = () => {
               <img src={aboutImg} alt="about-img" className="h-full w-full object-cover object-center" />
             </motion.div>
             <motion.div
-              initial={{ opacity: 0, x: 80 }}
+              initial={{ opacity: 0, x: -80 }}
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 1.5, ease: 'easeInOut' }}
               viewport={{ once: true }}

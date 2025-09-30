@@ -14,10 +14,10 @@ const Footer = () => {
               <p className='text-white pl-4 font-inter mt-4'>Kami menyediakan layanan logistik yang cepat, aman, dan handal, memastikan setiap pengiriman sampai tepat waktu dan dalam kondisi terbaik.</p>
             </div>
             <div className='pl-4 md:pl-[30%] mt-5'>
-              <h3 className='text-2xl text-white font-bold'>Navigasi</h3>
+              <h3 className='text-2xl text-white font-bold font-montserrat'>Navigasi</h3>
               <ul className='mt-5 text-white font-inter'>
                 <li className="mb-2">
-                  <a href="#home">Beranda</a>
+                  <a href="#home" >Beranda</a>
                 </li>
                 <li className="mb-2">
                   <a href="#about">Tentang Kami</a>
@@ -32,7 +32,7 @@ const Footer = () => {
             </div>
           </div>
           <hr className='mt-10 text-white/40' />
-          <p className='text-center mt-5 text-white text-xs md:text-sm'>© 2025 PT Perdana Putra Majalengka. All Rights Reserved.</p>
+          <p className='text-center mt-5 text-white text-xs md:text-sm font-inter'>© 2025 PT Perdana Putra Majalengka. All Rights Reserved.</p>
         </div>
       </div>
     </footer>
