@@ -18,10 +18,13 @@ import {
 } from 'feather-icons-react';
 // eslint-disable-next-line no-unused-vars
 import { motion } from 'framer-motion';
-import cddImg from '../assets/cdd-truck.jpg';
-import cdeImg from '../assets/cde-truck.jpg';
-import fusoImg from '../assets/fuso-truck.jpg';
-import trontonImg from '../assets/tronton-truck.jpg';
+import cdd from '../assets/cdd.jpg'
+import cde from '../assets/cde.jpg'
+import fuso from '../assets/fuso.jpeg'
+import tronton from '../assets/tronton.jpg'
+import trailer from '../assets/trailer.jpg'
+import dump from '../assets/dump.webp'
+import triway from '../assets/triway.jpg'
 
 const ServicesSection = () => {
   return (
@@ -167,7 +170,7 @@ const ServicesSection = () => {
           >
             <div className="w-full rounded-xl bg-gradient-to-b from-white via-blue-200 to-blue-300 p-6 text-center shadow-lg shadow-black/25">
               <div className="shadow-black.20 h-1/2 overflow-hidden rounded-lg shadow-md">
-                <img src={cddImg} alt="" className="h-70 w-full object-cover object-center" />
+                <img src={cdd} alt="" className="h-70 w-full object-cover object-center" />
               </div>
               <h1 className="font-montserrat mt-5 text-2xl font-bold text-blue-700 md:text-3xl">Truck CDD</h1>
               <p className="font-inter font-thin uppercase">Light Duty</p>
@@ -175,85 +178,11 @@ const ServicesSection = () => {
                 <div className="mt-10 p-4 text-left">
                   <div>
                     <h3 className="font-inter">Kapasitas</h3>
-                    <h2 className="text-primary font-montserrat font-bold">2-3 TON</h2>
+                    <h2 className="text-primary font-montserrat font-bold">5–7 ton</h2>
                   </div>
                   <div className="mt-3">
                     <h3 className="font-inter">Dimensi</h3>
-                    <h2 className="text-primary font-montserrat font-bold">3.5 x 1.8 m</h2>
-                  </div>
-                  <div className="mt-3">
-                    <h3 className="font-inter">Area</h3>
-                    <h2 className="text-primary font-montserrat font-bold">Dalam Kota</h2>
-                  </div>
-                  <div className="mt-3">
-                    <h3 className="font-inter">Mesin</h3>
-                    <h2 className="text-primary font-montserrat font-bold">125 HP</h2>
-                  </div>
-                </div>
-              </div>
-              <hr className="mt-10 text-black/30" />
-              <a
-                href="https://wa.me/6285278412070?text=Halo%2C%20saya%20ingin%20menyewa%20truk%20CDD?"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="font-inter mx-auto mt-5 inline-flex cursor-pointer rounded-2xl bg-blue-600 px-7 py-2 font-semibold text-white transition-all duration-300 ease-in-out hover:scale-95 hover:opacity-80 md:text-xl"
-              >
-                Pesan
-              </a>
-            </div>
-
-            <div className="w-full rounded-xl bg-gradient-to-b from-white via-blue-200 to-blue-300 p-6 text-center shadow-lg shadow-black/25">
-              <div className="shadow-black.20 h-1/2 overflow-hidden rounded-lg shadow-md">
-                <img src={cdeImg} alt="" className="h-70 w-full object-cover object-center" />
-              </div>
-              <h1 className="font-montserrat mt-5 text-2xl font-bold text-blue-700 md:text-3xl">Truck CDE</h1>
-              <p className="font-inter font-thin uppercase">Medium Duty</p>
-              <div className="w-full rounded-lg bg-gradient-to-b from-blue-50 via-blue-100 to-blue-200 shadow-lg shadow-black/20">
-                <div className="mt-10 p-4 text-left">
-                  <div>
-                    <h3 className="font-inter">Kapasitas</h3>
-                    <h2 className="text-primary font-montserrat font-bold">4-5 Ton</h2>
-                  </div>
-                  <div className="mt-3">
-                    <h3 className="font-inter">Dimensi</h3>
-                    <h2 className="text-primary font-montserrat font-bold">4.5 x 2.0 m</h2>
-                  </div>
-                  <div className="mt-3">
-                    <h3 className="font-inter">Area</h3>
-                    <h2 className="text-primary font-montserrat font-bold">Antar Kota</h2>
-                  </div>
-                  <div className="mt-3">
-                    <h3 className="font-inter">Mesin</h3>
-                    <h2 className="text-primary font-montserrat font-bold">150 HP</h2>
-                  </div>
-                </div>
-              </div>
-              <hr className="mt-10 text-black/30" />
-              <a
-                href="https://wa.me/6285278412070?text=Halo%2C%20saya%20ingin%20menyewa%20truk%20CDE?"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="font-inter mx-auto mt-5 inline-flex cursor-pointer rounded-2xl bg-blue-600 px-7 py-2 font-semibold text-white transition-all duration-300 ease-in-out hover:scale-95 hover:opacity-80 md:text-xl"
-              >
-                Pesan
-              </a>
-            </div>
-
-            <div className="w-full rounded-xl bg-gradient-to-b from-white via-blue-200 to-blue-300 p-6 text-center shadow-lg shadow-black/25">
-              <div className="shadow-black.20 h-1/2 overflow-hidden rounded-lg shadow-md">
-                <img src={fusoImg} alt="" className="h-70 w-full object-cover object-center" />
-              </div>
-              <h1 className="font-montserrat mt-5 text-2xl font-bold text-blue-700 md:text-3xl">Truck Fuso</h1>
-              <p className="font-inter font-thin uppercase">Heavy Duty</p>
-              <div className="w-full rounded-lg bg-gradient-to-b from-blue-50 via-blue-100 to-blue-200 shadow-lg shadow-black/20">
-                <div className="mt-10 p-4 text-left">
-                  <div>
-                    <h3 className="font-inter">Kapasitas</h3>
-                    <h2 className="text-primary font-montserrat font-bold">6-8 Ton</h2>
-                  </div>
-                  <div className="mt-3">
-                    <h3 className="font-inter">Dimensi</h3>
-                    <h2 className="text-primary font-montserrat font-bold">6.0 x 2.3 m</h2>
+                    <h2 className="text-primary font-montserrat font-bold">6.0 – 7.0 m x 2.0 m</h2>
                   </div>
                   <div className="mt-3">
                     <h3 className="font-inter">Area</h3>
@@ -261,13 +190,87 @@ const ServicesSection = () => {
                   </div>
                   <div className="mt-3">
                     <h3 className="font-inter">Mesin</h3>
-                    <h2 className="text-primary font-montserrat font-bold">190 HP</h2>
+                    <h2 className="text-primary font-montserrat font-bold">100–125 HP</h2>
                   </div>
                 </div>
               </div>
               <hr className="mt-10 text-black/30" />
               <a
-                href="https://wa.me/6285278412070?text=Halo%2C%20saya%20ingin%20menyewa%20truk%20Fuso?"
+                href="https://wa.me/6283822237832?text=Halo%2C%20saya%20ingin%20menyewa%20truk%20CDD?"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-inter mx-auto mt-5 inline-flex cursor-pointer rounded-2xl bg-blue-600 px-7 py-2 font-semibold text-white transition-all duration-300 ease-in-out hover:scale-95 hover:opacity-80 md:text-xl"
+              >
+                Pesan
+              </a>
+            </div>
+
+            <div className="w-full rounded-xl bg-gradient-to-b from-white via-blue-200 to-blue-300 p-6 text-center shadow-lg shadow-black/25">
+              <div className="shadow-black.20 h-1/2 overflow-hidden rounded-lg shadow-md">
+                <img src={cde} alt="" className="h-70 w-full object-cover object-center" />
+              </div>
+              <h1 className="font-montserrat mt-5 text-2xl font-bold text-blue-700 md:text-3xl">Truck CDE</h1>
+              <p className="font-inter font-thin uppercase">Medium Duty</p>
+              <div className="w-full rounded-lg bg-gradient-to-b from-blue-50 via-blue-100 to-blue-200 shadow-lg shadow-black/20">
+                <div className="mt-10 p-4 text-left">
+                  <div>
+                    <h3 className="font-inter">Kapasitas</h3>
+                    <h2 className="text-primary font-montserrat font-bold">2–4 ton</h2>
+                  </div>
+                  <div className="mt-3">
+                    <h3 className="font-inter">Dimensi</h3>
+                    <h2 className="text-primary font-montserrat font-bold">4.5 – 6.0 m x 1.8 m</h2>
+                  </div>
+                  <div className="mt-3">
+                    <h3 className="font-inter">Area</h3>
+                    <h2 className="text-primary font-montserrat font-bold">Nasional</h2>
+                  </div>
+                  <div className="mt-3">
+                    <h3 className="font-inter">Mesin</h3>
+                    <h2 className="text-primary font-montserrat font-bold">90–110 HP</h2>
+                  </div>
+                </div>
+              </div>
+              <hr className="mt-10 text-black/30" />
+              <a
+                href="https://wa.me/6283822237832?text=Halo%2C%20saya%20ingin%20menyewa%20truk%20CDE?"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-inter mx-auto mt-5 inline-flex cursor-pointer rounded-2xl bg-blue-600 px-7 py-2 font-semibold text-white transition-all duration-300 ease-in-out hover:scale-95 hover:opacity-80 md:text-xl"
+              >
+                Pesan
+              </a>
+            </div>
+
+            <div className="w-full rounded-xl bg-gradient-to-b from-white via-blue-200 to-blue-300 p-6 text-center shadow-lg shadow-black/25">
+              <div className="shadow-black.20 h-1/2 overflow-hidden rounded-lg shadow-md">
+                <img src={fuso} alt="" className="h-70 w-full object-cover object-center" />
+              </div>
+              <h1 className="font-montserrat mt-5 text-2xl font-bold text-blue-700 md:text-3xl">Truck Fuso</h1>
+              <p className="font-inter font-thin uppercase">Heavy Duty</p>
+              <div className="w-full rounded-lg bg-gradient-to-b from-blue-50 via-blue-100 to-blue-200 shadow-lg shadow-black/20">
+                <div className="mt-10 p-4 text-left">
+                  <div>
+                    <h3 className="font-inter">Kapasitas</h3>
+                    <h2 className="text-primary font-montserrat font-bold">7–12 ton</h2>
+                  </div>
+                  <div className="mt-3">
+                    <h3 className="font-inter">Dimensi</h3>
+                    <h2 className="text-primary font-montserrat font-bold">7.0 – 8.0 m x 2.3 m</h2>
+                  </div>
+                  <div className="mt-3">
+                    <h3 className="font-inter">Area</h3>
+                    <h2 className="text-primary font-montserrat font-bold">Nasional</h2>
+                  </div>
+                  <div className="mt-3">
+                    <h3 className="font-inter">Mesin</h3>
+                    <h2 className="text-primary font-montserrat font-bold">220–250 HP</h2>
+                  </div>
+                </div>
+              </div>
+              <hr className="mt-10 text-black/30" />
+              <a
+                href="https://wa.me/6283822237832?text=Halo%2C%20saya%20ingin%20menyewa%20truk%20Fuso?"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="font-inter mx-auto mt-5 inline-flex rounded-2xl bg-blue-600 px-7 py-2 font-semibold text-white transition-all duration-300 ease-in-out hover:scale-95 hover:opacity-80 md:text-xl"
@@ -278,7 +281,7 @@ const ServicesSection = () => {
 
             <div className="w-full rounded-xl bg-gradient-to-b from-white via-blue-200 to-blue-300 p-6 text-center shadow-lg shadow-black/25">
               <div className="shadow-black.20 h-1/2 overflow-hidden rounded-lg shadow-md">
-                <img src={trontonImg} alt="" className="h-70 w-full object-cover object-center" />
+                <img src={tronton} alt="" className="h-70 w-full object-cover object-center" />
               </div>
               <h1 className="font-montserrat mt-5 text-2xl font-bold text-blue-700 md:text-3xl">Truck Tronton</h1>
               <p className="font-inter font-thin uppercase">Extra Heavy Duty</p>
@@ -290,7 +293,7 @@ const ServicesSection = () => {
                   </div>
                   <div className="mt-3">
                     <h3 className="font-inter">Dimensi</h3>
-                    <h2 className="text-primary font-montserrat font-bold">9.0 x 2.4 m</h2>
+                    <h2 className="text-primary font-montserrat font-bold">9.0 – 9.5 m x 2.4 m</h2>
                   </div>
                   <div className="mt-3">
                     <h3 className="font-inter">Area</h3>
@@ -298,13 +301,124 @@ const ServicesSection = () => {
                   </div>
                   <div className="mt-3">
                     <h3 className="font-inter">Mesin</h3>
-                    <h2 className="text-primary font-montserrat font-bold">260 HP</h2>
+                    <h2 className="text-primary font-montserrat font-bold">260–320 HP</h2>
                   </div>
                 </div>
               </div>
               <hr className="mt-10 text-black/30" />
               <a
-                href="https://wa.me/6285278412070?text=Halo%2C%20saya%20ingin%20menyewa%20truk%20Tronton?"
+                href="https://wa.me/6283822237832?text=Halo%2C%20saya%20ingin%20menyewa%20truk%20Tronton?"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-inter mx-auto mt-5 inline-flex rounded-2xl bg-blue-600 px-7 py-2 font-semibold cursor-pointer text-white transition-all duration-300 ease-in-out hover:scale-95 hover:opacity-80 md:text-xl"
+              >
+                Pesan
+              </a>
+            </div>
+
+            <div className="w-full rounded-xl bg-gradient-to-b from-white via-blue-200 to-blue-300 p-6 text-center shadow-lg shadow-black/25">
+              <div className="shadow-black.20 h-1/2 overflow-hidden rounded-lg shadow-md">
+                <img src={trailer} alt="" className="h-70 w-full object-cover object-center" />
+              </div>
+              <h1 className="font-montserrat mt-5 text-2xl font-bold text-blue-700 md:text-3xl">Truck Trailer</h1>
+              <p className="font-inter font-thin uppercase">Extra Heavy Duty</p>
+              <div className="w-full rounded-lg bg-gradient-to-b from-blue-50 via-blue-100 to-blue-200 shadow-lg shadow-black/20">
+                <div className="mt-10 p-4 text-left">
+                  <div>
+                    <h3 className="font-inter">Kapasitas</h3>
+                    <h2 className="text-primary font-montserrat font-bold">30–60 ton</h2>
+                  </div>
+                  <div className="mt-3">
+                    <h3 className="font-inter">Dimensi</h3>
+                    <h2 className="text-primary font-montserrat font-bold">12 – 18 m x 2.5 m</h2>
+                  </div>
+                  <div className="mt-3">
+                    <h3 className="font-inter">Area</h3>
+                    <h2 className="text-primary font-montserrat font-bold">Nasional</h2>
+                  </div>
+                  <div className="mt-3">
+                    <h3 className="font-inter">Mesin</h3>
+                    <h2 className="text-primary font-montserrat font-bold">300–450 HP</h2>
+                  </div>
+                </div>
+              </div>
+              <hr className="mt-10 text-black/30" />
+              <a
+                href="https://wa.me/6283822237832?text=Halo%2C%20saya%20ingin%20menyewa%20truk%20Trailer?"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-inter mx-auto mt-5 inline-flex rounded-2xl bg-blue-600 px-7 py-2 font-semibold cursor-pointer text-white transition-all duration-300 ease-in-out hover:scale-95 hover:opacity-80 md:text-xl"
+              >
+                Pesan
+              </a>
+            </div>
+
+            <div className="w-full rounded-xl bg-gradient-to-b from-white via-blue-200 to-blue-300 p-6 text-center shadow-lg shadow-black/25">
+              <div className="shadow-black.20 h-1/2 overflow-hidden rounded-lg shadow-md">
+                <img src={dump} alt="" className="h-70 w-full object-cover object-center" />
+              </div>
+              <h1 className="font-montserrat mt-5 text-2xl font-bold text-blue-700 md:text-3xl">Truck Dump</h1>
+              <p className="font-inter font-thin uppercase">Heavy Duty</p>
+              <div className="w-full rounded-lg bg-gradient-to-b from-blue-50 via-blue-100 to-blue-200 shadow-lg shadow-black/20">
+                <div className="mt-10 p-4 text-left">
+                  <div>
+                    <h3 className="font-inter">Kapasitas</h3>
+                    <h2 className="text-primary font-montserrat font-bold">8–20 ton</h2>
+                  </div>
+                  <div className="mt-3">
+                    <h3 className="font-inter">Dimensi</h3>
+                    <h2 className="text-primary font-montserrat font-bold">6.0 – 9.0 m x 2.4 m</h2>
+                  </div>
+                  <div className="mt-3">
+                    <h3 className="font-inter">Area</h3>
+                    <h2 className="text-primary font-montserrat font-bold">Nasional</h2>
+                  </div>
+                  <div className="mt-3">
+                    <h3 className="font-inter">Mesin</h3>
+                    <h2 className="text-primary font-montserrat font-bold">220–280 HP</h2>
+                  </div>
+                </div>
+              </div>
+              <hr className="mt-10 text-black/30" />
+              <a
+                href="https://wa.me/6283822237832?text=Halo%2C%20saya%20ingin%20menyewa%20truk%20Dump?"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-inter mx-auto mt-5 inline-flex rounded-2xl bg-blue-600 px-7 py-2 font-semibold cursor-pointer text-white transition-all duration-300 ease-in-out hover:scale-95 hover:opacity-80 md:text-xl"
+              >
+                Pesan
+              </a>
+            </div>
+
+            <div className="w-full rounded-xl bg-gradient-to-b from-white via-blue-200 to-blue-300 p-6 text-center shadow-lg shadow-black/25">
+              <div className="shadow-black.20 h-1/2 overflow-hidden rounded-lg shadow-md">
+                <img src={triway} alt="" className="h-70 w-full object-cover object-center" />
+              </div>
+              <h1 className="font-montserrat mt-5 text-2xl font-bold text-blue-700 md:text-3xl">Truck Triway</h1>
+              <p className="font-inter font-thin uppercase">Heavy Duty</p>
+              <div className="w-full rounded-lg bg-gradient-to-b from-blue-50 via-blue-100 to-blue-200 shadow-lg shadow-black/20">
+                <div className="mt-10 p-4 text-left">
+                  <div>
+                    <h3 className="font-inter">Kapasitas</h3>
+                    <h2 className="text-primary font-montserrat font-bold">20–30 ton</h2>
+                  </div>
+                  <div className="mt-3">
+                    <h3 className="font-inter">Dimensi</h3>
+                    <h2 className="text-primary font-montserrat font-bold">12 – 13 m x 2.5 m</h2>
+                  </div>
+                  <div className="mt-3">
+                    <h3 className="font-inter">Area</h3>
+                    <h2 className="text-primary font-montserrat font-bold">Nasional</h2>
+                  </div>
+                  <div className="mt-3">
+                    <h3 className="font-inter">Mesin</h3>
+                    <h2 className="text-primary font-montserrat font-bold">300–400 HP</h2>
+                  </div>
+                </div>
+              </div>
+              <hr className="mt-10 text-black/30" />
+              <a
+                href="https://wa.me/6283822237832?text=Halo%2C%20saya%20ingin%20menyewa%20truk%20Triway?"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="font-inter mx-auto mt-5 inline-flex rounded-2xl bg-blue-600 px-7 py-2 font-semibold cursor-pointer text-white transition-all duration-300 ease-in-out hover:scale-95 hover:opacity-80 md:text-xl"

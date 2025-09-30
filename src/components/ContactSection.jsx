@@ -43,7 +43,7 @@ const ContactSection = () => {
               </div>
               <div className="text-left">
                 <h3 className="font-inter font-bold text-blue-800">Telepon</h3>
-                <h2 className="font-inter text-slate-700">+62 852-7841-2070</h2>
+                <h2 className="font-inter text-slate-700 text-sm lg:text-base">+62 838-2223-7832</h2>
               </div>
             </div>
 
@@ -55,7 +55,7 @@ const ContactSection = () => {
               </div>
               <div className="text-left">
                 <h3 className="font-inter font-bold text-blue-800">WhatsApp</h3>
-                <h2 className="font-inter text-slate-700">+62 852-7841-2070</h2>
+                <h2 className="font-inter text-slate-700 text-sm lg:text-base">+62 852-7841-2070</h2>
               </div>
             </div>
 
@@ -67,7 +67,7 @@ const ContactSection = () => {
               </div>
               <div className="text-left">
                 <h3 className="font-inter font-bold text-blue-800">Email</h3>
-                <h2 className="font-inter text-slate-700">perdanaputra91@hotmail.com</h2>
+                <h2 className="font-inter text-slate-700 text-sm lg:text-sm">perdanaputra91@hotmail.com</h2>
               </div>
             </div>
           </div>
@@ -103,7 +103,7 @@ const ContactSection = () => {
           </p>
           <div className="mx-auto mt-7 grid w-full grid-cols-1 gap-4 lg:grid-cols-2 xl:w-[50%]">
             <a
-              href="https://wa.me/6285278412070?text=Halo%20saya%20tertarik%20dengan%20layanan%20logistik%20PT%20Perdana%20Putra%20Majalengka.%20Bisa%20minta%20informasi%20lebih%20lanjut?"
+              href="https://wa.me/6283822237832?text=Halo%20saya%20tertarik%20dengan%20layanan%20logistik%20PT%20Perdana%20Putra%20Majalengka.%20Bisa%20minta%20informasi%20lebih%20lanjut?"
               target="_blank"
               rel="noopener noreferrer"
               className="font-montserrat mx-auto flex w-full items-center justify-center gap-2 rounded-full bg-green-400 py-4 font-bold text-white transition-all duration-300 ease-in-out hover:scale-105"
@@ -114,7 +114,7 @@ const ContactSection = () => {
               Chat via WhatsApp
             </a>
             <a
-              href="tel:+6285278412070"
+              href="tel:++6283822237832"
               className="font-montserrat mx-auto flex w-full items-center justify-center gap-2 rounded-full bg-white py-4 font-bold text-blue-600 transition-all duration-300 ease-in-out hover:scale-105"
             >
               <span>

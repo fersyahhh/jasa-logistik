@@ -46,14 +46,14 @@ const AboutSection = () => {
                 Mitra Logistik Pilihan Anda
               </h2>
               <p className="font-inter mt-4 text-slate-700">
-                Pak Iwan Purnama, sang owner PT Perdana Putra Majalengka, telah malang melintang di dunia logistik sejak
+                Sang owner PT Perdana Putra Majalengka, telah malang melintang di dunia logistik sejak
                 tahun 2016. Dedikasi dan profesionalismenya mengantarkan perusahaan ini berkembang menjadi penyedia
                 layanan logistik terpercaya di Jawa dan Indonesia pada umumnya. Seiring dengan kemajuan pesat usahanya,
-                Pak Iwan pun mengambil langkah strategis untuk meningkatkan profesionalitas dengan mengurus perizinan
+                sang owner pun mengambil langkah strategis untuk meningkatkan profesionalitas dengan mengurus perizinan
                 resmi pada tahun 2024.
               </p>
               <p className="font-inter mt-5 text-slate-700">
-                Pengalaman dan komitmen Pak Iwan Purnama, dipadukan dengan legalitas perusahaan yang resmi, menjadikan
+                Pengalaman dan komitmen sang owner, dipadukan dengan legalitas perusahaan yang resmi, menjadikan
                 PT Perdana Putra Majalengka sebagai mitra yang handal untuk kebutuhan logistik Anda. Sekarang PT Perdana
                 Putra Majalengka dikenal sebagai perusahaan logistik yang fokus pada pengiriman barang dari gudang
                 pabrik ke gudang pabrik.
