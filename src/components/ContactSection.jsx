@@ -60,7 +60,7 @@ const ContactSection = () => {
             </div>
 
             <div className="mt-5 flex gap-4 rounded-xl border-l-4 border-blue-600 px-5 py-8 shadow-lg shadow-black/20 transition-all duration-300 ease-in-out hover:translate-x-2">
-              <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-blue-600 text-white md:px-4">
+              <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-blue-600 text-white px-4">
                 <span>
                   <Mail size={30} />
                 </span>
