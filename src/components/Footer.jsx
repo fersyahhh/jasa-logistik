@@ -9,7 +9,7 @@ const Footer = () => {
             <div className='xl:pl-20'>
               <div className='flex items-center gap-2'>
                 <span><img src={logoImg} alt="" /></span>
-                <h1 className='text-white text-3xl font-bold font-montserrat'>Jasa Logistik</h1>
+                <h1 className='text-white text-3xl font-bold font-montserrat'>PT Perdana Putra</h1>
               </div>
               <p className='text-white pl-4 font-inter mt-4'>Kami menyediakan layanan logistik yang cepat, aman, dan handal, memastikan setiap pengiriman sampai tepat waktu dan dalam kondisi terbaik.</p>
             </div>

@@ -25,6 +25,7 @@ import tronton from '../assets/tronton.jpg'
 import trailer from '../assets/trailer.jpg'
 import dump from '../assets/dump.webp'
 import triway from '../assets/triway.jpg'
+import wingbox from '../assets/wingbox.jpg'
 
 const ServicesSection = () => {
   return (
@@ -419,6 +420,43 @@ const ServicesSection = () => {
               <hr className="mt-10 text-black/30" />
               <a
                 href="https://wa.me/6283822237832?text=Halo%2C%20saya%20ingin%20menyewa%20truk%20Triway?"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-inter mx-auto mt-5 inline-flex rounded-2xl bg-blue-600 px-7 py-2 font-semibold cursor-pointer text-white transition-all duration-300 ease-in-out hover:scale-95 hover:opacity-80 md:text-xl"
+              >
+                Pesan
+              </a>
+            </div>
+
+            <div className="w-full rounded-xl bg-gradient-to-b from-white via-blue-200 to-blue-300 p-6 text-center shadow-lg shadow-black/25">
+              <div className="shadow-black.20 h-1/2 overflow-hidden rounded-lg shadow-md">
+                <img src={wingbox} alt="" className="h-70 w-full object-cover object-center" />
+              </div>
+              <h1 className="font-montserrat mt-5 text-2xl font-bold text-blue-700 md:text-3xl">Truck Wingbox</h1>
+              <p className="font-inter font-thin uppercase">Heavy Duty</p>
+              <div className="w-full rounded-lg bg-gradient-to-b from-blue-50 via-blue-100 to-blue-200 shadow-lg shadow-black/20">
+                <div className="mt-10 p-4 text-left">
+                  <div>
+                    <h3 className="font-inter">Kapasitas</h3>
+                    <h2 className="text-primary font-montserrat font-bold">20–30 ton</h2>
+                  </div>
+                  <div className="mt-3">
+                    <h3 className="font-inter">Dimensi</h3>
+                    <h2 className="text-primary font-montserrat font-bold">12 – 13 m x 2.5 m</h2>
+                  </div>
+                  <div className="mt-3">
+                    <h3 className="font-inter">Area</h3>
+                    <h2 className="text-primary font-montserrat font-bold">Nasional</h2>
+                  </div>
+                  <div className="mt-3">
+                    <h3 className="font-inter">Mesin</h3>
+                    <h2 className="text-primary font-montserrat font-bold">300–400 HP</h2>
+                  </div>
+                </div>
+              </div>
+              <hr className="mt-10 text-black/30" />
+              <a
+                href="https://wa.me/6283822237832?text=Halo%2C%20saya%20ingin%20menyewa%20truk%20Wingbox?"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="font-inter mx-auto mt-5 inline-flex rounded-2xl bg-blue-600 px-7 py-2 font-semibold cursor-pointer text-white transition-all duration-300 ease-in-out hover:scale-95 hover:opacity-80 md:text-xl"
