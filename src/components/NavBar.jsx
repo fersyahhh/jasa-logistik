@@ -18,7 +18,7 @@ const NavBar = () => {
           {/* Logo */}
           <div>
             <h1 className="font-montserrat text-primary text-2xl font-bold lg:text-3xl">
-              Jasa <span className="text-blue-500">Logistik</span>
+              PT<span className="text-blue-500"> Perdana Putra</span>
             </h1>
           </div>
 
@@ -46,6 +46,9 @@ const NavBar = () => {
                 </li>
                 <li className="mb-2 sm:mb-0">
                   <a href="#services" onClick={handleLinkClick}>Layanan</a>
+                </li>
+                <li className="mb-2 sm:mb-0">
+                  <a href="#clients" onClick={handleLinkClick}>Klien</a>
                 </li>
                 <li className="mb-2 sm:mb-0">
                   <a href="#contact" onClick={handleLinkClick}>Kontak</a>

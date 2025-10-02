@@ -1,4 +1,4 @@
-import heroImage from '../assets/hero-img.jpg';
+import heroImage from '../assets/hero-img.avif';
 // eslint-disable-next-line no-unused-vars
 import { motion } from 'framer-motion';
 
@@ -19,7 +19,7 @@ const HeroSection = () => {
               viewport={{ once: true }}
             >
               <h1 className="font-montserrat text-4xl font-bold md:text-6xl">
-                <span className="text-blue-600">PT Perdana Putra</span> <span className="underline">Majalengka</span>
+                <span className="text-blue-600">Pengiriman Cepat Dan</span> <span className="underline">Bebas Cemas</span>
               </h1>
             </motion.div>
             <motion.h2
